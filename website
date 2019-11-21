@@ -1,0 +1,116 @@
+<html>
+<head>
+<style>
+body
+
+{
+	margin: 0;
+}
+.header{
+	background-color: wheat;
+	padding:10px;
+	color: black;
+	text-align: center;
+}
+ul{
+	margin:0;
+	padding:0px;
+	background-color:#333;
+	overflow:hidden;
+}
+
+.topnav a{
+float:left;
+border-right:solid;
+border-color:white;
+display:block;
+color:white;
+padding:10px 16px;
+text-decoration:none;	
+}
+a.active{
+background-color:maroon;
+}
+a:hover{
+background-color:#4CAF50}
+
+.floatingbox{
+	background-color:lightblue;
+	color:maroon;
+	float: left;
+	margin:67px;
+    width:250px;
+    padding: 20px 30px;
+    height: 250px;
+}
+.floatingboxa{
+	background-color:pink;
+	color:blue;
+	float: left;
+	margin:67px;
+    width:250px;
+    padding: 20px 30px;
+    height: 250px;
+}
+.floatingboxb{
+	background-color:black;
+	color:white;
+	float: left;
+	margin:67px;
+    width:250px;
+    padding: 20px 30px;
+    height: 250px;
+}
+.footer{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1>Welcome To My Page</h1>
+</div>
+<div class="topnav">
+<ul>
+<a class="active" href="#HOME">HOME</a>
+<a href="#CONTACTS">CONTACTS</a>
+<a href="#ABOUT">ABOUT</a>
+<a href="#PERSONALINFORMATIONS">PERSONAL INFORMATIONS</a>
+<a href="#MORE">MORE</a>
+</ul>
+</div>
+
+<div class="floatingbox">
+<h3>Information</h3>
+<li>Name: Ujjwal Bhatta
+<li>Age: 17
+<li>Occupation: Student
+<li>Address:Thulobharyang
+<li>Relationship:Single
+<li>Contact Number:9860959018
+</div>
+<div class="floatingboxa">
+<h3>Hobbies</h3>
+<li>Playing Football</li>
+<li>Watching Football</li>
+<li>Listening Music</li>
+<li>Doing Exercise</li>
+<h3>Aim</h3>
+<li>To be a sucessful engineer</li>
+</div>
+<div class="floatingboxb">
+<h3>Favourites</h3>
+<li>Club: Football Club Barcelona
+<li>Player: Messi
+<li>Band: Pink Flyod
+<li>Game: FIFA 18
+<li>Food: Momo
+<h3>Passion</h3>
+<li>Travelling</li>
+Eating lol
+</div>
+<div class="footer">
+<h1>THANK YOU</h1>
+</div>
+</body>
+</html>
