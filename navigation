@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#333;
+	overflow:hidden;
+}
+
+li{
+	float:left;
+	border-right:solid;
+	border-color:white;
+}
+li a{
+	display:block;
+	color:white;
+	padding:8px 16px;
+    text-decoration:none;
+}	
+li a.active{
+	background-color:#4CAF50;
+}
+li a:hover{
+    background-color:maroon;
+}
+.floatingbox{
+	float:left;
+	display:inline-block;
+	padding:10px 20px; 
+	width:300px;
+    height:300px;
+    background-color:black;
+    margin:160px;
+    color:white;
+}
+</style>
+</head>
+
+
+<body>
+<ul>
+<li><a href="#HOME">HOME</a></li>
+<li><a href="contacts">CONTACTS</a></li>
+<li><a href="NEWS">NEWS</a></li>
+<li><a href="CLUBFIXTURES">CLUBFIXTURES</a></li>
+<li style="float:right"><a class="active"href="ABOUT">ABOUT</a><li>	
+</ul>
+
+<div class="floatingbox">Futbol Club Barcelona commonly known as Barcelona and familiarly as Barça,is a professional football club based in Barcelona, Catalonia, Spain.
+
+Founded in 1899 by a group of Swiss, English and Catalan footballers led by Joan Gamper, the club has become a symbol of Catalan culture and Catalanism, hence the motto "Més que un club" ("More than a club"). Unlike many other football clubs, the supporters own and operate Barcelona. It is the second most valuable sports team in the world, worth $3.56 billion, and the world's third richest football club in terms of revenue, with an annual turnover of €648.3 million. The official Barcelona anthem is the "Cant del Barça", written by Jaume Picas and Josep Maria Espinàs.
+</div>
+<div class="floatingbox">Barcelona is one of the most widely supported teams in the world, and the club has one of the largest social media following in the world among sports teams. Barcelona players have won a record number of Ballon d'Or awards, with recipients including Johan Cruyff, as well as a record number of FIFA World Player of the Year awards (7), with winners including Ronaldo, Romário and Ronaldinho. In 2010, three players who came through the club's youth academy (Lionel Messi, Andrés Iniesta and Xavi) were chosen as the three best players in the world in the FIFA Ballon d'Or awards, an unprecedented feat for players from the same football school.
+</div>
+
+
+
+</body>
+</html>
