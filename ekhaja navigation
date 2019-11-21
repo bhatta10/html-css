@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+body{
+	margin:0;
+}
+.header
+{padding:0.1px;
+	background-color:#333;
+	color:white;
+	text-align:center;
+}
+.header2
+{padding:0.02px;
+	background-color:maroon;
+	color:white;
+	text-align:right;
+}
+ul 
+{margin:0;
+	padding:0px;
+	background-color:#333;
+	overflow:hidden;
+	list-style-type:none;
+	}
+.topnav a{
+background-color:black;	
+float:right;
+border-left:solid;
+border-color:black;
+display:block;
+color:white;
+padding:10px 16px;
+text-decoration:none;	
+}
+a.active{
+	background-color:#4CAF50;
+}
+a:hover{
+	background-color:maroon;
+}
+</style>
+</head>
+<body>
+<div class="header">
+<h1><i>E Khaja</h1></i>
+</div>
+<div class="header2">
+<p><marquee>Swadilo Ra Faidadari Bhanekai E Khaja</marquee></p>
+</div>
+<div class="topnav">
+<ul>
+<a class="active" href="#home">HOME</a>
+<a href="#contact">CONTACT</a>
+<a href="#address">ADDRESS</a>
+<a href="#photoes">PHOTOES</a>
+<a href="#more">MORE</a>
+</ul>
+</div>
+</body>
+
+</html>
